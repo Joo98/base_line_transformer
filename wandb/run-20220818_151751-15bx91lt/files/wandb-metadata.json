@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-08-18T06:17:59.977098",
+    "startedAt": "2022-08-18T06:17:51.727730",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-DQD70DV",
+    "username": "user",
+    "executable": "c:\\Users\\user\\anaconda3\\envs\\for_wdb\\python.exe"
+}

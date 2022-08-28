@@ -1,0 +1,50 @@
+
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: 'c:\\users\\user\\anaconda3\\envs\\for_wdb\\lib\\site-packages\\numpy-1.23.2.dist-info\\METADATA'
+Collecting torchtext==0.6.0
+  Downloading torchtext-0.6.0-py3-none-any.whl (64 kB)
+     ---------------------------------------- 64.2/64.2 kB 1.7 MB/s eta 0:00:00
+Requirement already satisfied: requests in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (2.28.1)
+Requirement already satisfied: torch in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.12.1)
+Requirement already satisfied: sentencepiece in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (0.1.97)
+Requirement already satisfied: tqdm in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (4.64.0)
+Requirement already satisfied: numpy in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.23.2)
+Requirement already satisfied: six in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.16.0)
+'sudo'��(��) ���� �Ǵ� �ܺ� ����, ������ �� �ִ� ���α׷�, �Ǵ�
+��ġ ������ �ƴմϴ�.
+Collecting torchtext==0.6.0
+  Using cached torchtext-0.6.0-py3-none-any.whl (64 kB)
+Requirement already satisfied: torch in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.12.1)
+Requirement already satisfied: requests in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (2.28.1)
+Requirement already satisfied: six in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.16.0)
+Requirement already satisfied: tqdm in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (4.64.0)
+Requirement already satisfied: numpy in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.23.2)
+Requirement already satisfied: sentencepiece in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (0.1.97)
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: 'c:\\users\\user\\anaconda3\\envs\\for_wdb\\lib\\site-packages\\numpy-1.23.2.dist-info\\METADATA'
+usage: conda-script.py [-h] [-V] command ...
+conda-script.py: error: unrecognized arguments: --user
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+PackagesNotFoundError: The following packages are not available from current channels:
+  - torchtext==0.6.0
+Current channels:
+  - https://repo.anaconda.com/pkgs/main/win-64
+  - https://repo.anaconda.com/pkgs/main/noarch
+  - https://repo.anaconda.com/pkgs/r/win-64
+  - https://repo.anaconda.com/pkgs/r/noarch
+  - https://repo.anaconda.com/pkgs/msys2/win-64
+  - https://repo.anaconda.com/pkgs/msys2/noarch
+To search for alternate channels that may provide the conda package you're
+looking for, navigate to
+    https://anaconda.org
+and use the search bar at the top of the page.
+Collecting torchtext==0.6.0
+  Using cached torchtext-0.6.0-py3-none-any.whl (64 kB)
+Requirement already satisfied: torch in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.12.1)
+Requirement already satisfied: requests in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (2.28.1)
+Requirement already satisfied: sentencepiece in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (0.1.97)
+Requirement already satisfied: six in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.16.0)
+Requirement already satisfied: numpy in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (1.23.2)
+Requirement already satisfied: tqdm in c:\users\user\anaconda3\envs\for_wdb\lib\site-packages (from torchtext==0.6.0) (4.64.0)
+Note: you may need to restart the kernel to use updated packages.

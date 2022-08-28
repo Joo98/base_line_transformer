@@ -1,0 +1,104 @@
+2022-08-18 15:17:59,407 INFO    StreamThr :4836 [internal.py:wandb_internal():90] W&B internal server running at pid: 4836, started at: 2022-08-18 15:17:59.405223
+2022-08-18 15:17:59,408 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: status
+2022-08-18 15:17:59,409 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: status
+2022-08-18 15:17:59,410 DEBUG   SenderThread:4836 [sender.py:send():302] send: header
+2022-08-18 15:17:59,410 INFO    WriterThread:4836 [datastore.py:open_for_write():75] open: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\run-15bx91lt.wandb
+2022-08-18 15:17:59,411 DEBUG   SenderThread:4836 [sender.py:send():302] send: run
+2022-08-18 15:17:59,891 INFO    SenderThread:4836 [dir_watcher.py:__init__():216] watching files in: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files
+2022-08-18 15:17:59,891 INFO    SenderThread:4836 [sender.py:_start_run_threads():913] run started: 15bx91lt with start time 1660803478.408819
+2022-08-18 15:17:59,891 DEBUG   SenderThread:4836 [sender.py:send():302] send: summary
+2022-08-18 15:17:59,893 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: check_version
+2022-08-18 15:17:59,894 INFO    SenderThread:4836 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-18 15:17:59,894 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: check_version
+2022-08-18 15:17:59,972 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: run_start
+2022-08-18 15:17:59,977 DEBUG   HandlerThread:4836 [meta.py:__init__():35] meta init
+2022-08-18 15:17:59,977 DEBUG   HandlerThread:4836 [meta.py:__init__():50] meta init done
+2022-08-18 15:17:59,977 DEBUG   HandlerThread:4836 [meta.py:probe():216] probe
+2022-08-18 15:17:59,979 DEBUG   HandlerThread:4836 [git.py:repo():40] git repository is invalid
+2022-08-18 15:17:59,979 DEBUG   HandlerThread:4836 [meta.py:_save_pip():54] save pip
+2022-08-18 15:17:59,980 DEBUG   HandlerThread:4836 [meta.py:_save_pip():68] save pip done
+2022-08-18 15:17:59,980 DEBUG   HandlerThread:4836 [meta.py:_save_conda():75] save conda
+2022-08-18 15:18:00,904 INFO    Thread-75 :4836 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files\conda-environment.yaml
+2022-08-18 15:18:00,904 INFO    Thread-75 :4836 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files\wandb-summary.json
+2022-08-18 15:18:00,905 INFO    Thread-75 :4836 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files\requirements.txt
+2022-08-18 15:18:02,909 INFO    Thread-75 :4836 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files\conda-environment.yaml
+2022-08-18 15:18:02,942 DEBUG   HandlerThread:4836 [meta.py:_save_conda():85] save conda done
+2022-08-18 15:18:02,942 DEBUG   HandlerThread:4836 [meta.py:probe():254] probe done
+2022-08-18 15:18:02,944 DEBUG   SenderThread:4836 [sender.py:send():302] send: files
+2022-08-18 15:18:02,944 INFO    SenderThread:4836 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-18 15:18:02,952 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:18:02,952 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:18:03,163 DEBUG   SenderThread:4836 [sender.py:send():302] send: telemetry
+2022-08-18 15:18:03,163 DEBUG   SenderThread:4836 [sender.py:send():302] send: telemetry
+2022-08-18 15:18:03,164 DEBUG   SenderThread:4836 [sender.py:send():302] send: run
+2022-08-18 15:18:03,414 INFO    SenderThread:4836 [sender.py:send_run():797] updated run: 15bx91lt
+2022-08-18 15:18:03,643 INFO    Thread-79 :4836 [upload_job.py:push():138] Uploaded file C:\Users\user\AppData\Local\Temp\tmpilcpj62bwandb\y9pskicv-wandb-metadata.json
+2022-08-18 15:18:03,922 INFO    Thread-75 :4836 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files\config.yaml
+2022-08-18 15:18:03,923 INFO    Thread-75 :4836 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files\wandb-metadata.json
+2022-08-18 15:18:18,173 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:18:18,174 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:18:30,205 INFO    Thread-75 :4836 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220818_151751-15bx91lt\files\config.yaml
+2022-08-18 15:18:30,882 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:18:33,406 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:18:33,407 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:18:49,064 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:18:49,064 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:19:03,909 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:19:04,329 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:19:04,330 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:19:19,578 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:19:19,579 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:19:34,809 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:19:34,810 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:19:36,959 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:19:50,046 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:19:50,046 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:20:05,267 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:20:05,267 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:20:10,043 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:20:20,615 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:20:20,615 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:20:35,902 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:20:35,903 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:20:43,182 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:20:51,134 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:20:51,135 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:21:06,380 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:21:06,381 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:21:16,287 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:21:21,621 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:21:21,622 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:21:36,868 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:21:36,869 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:21:49,478 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:21:52,087 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:21:52,087 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:22:07,311 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:22:07,311 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:22:22,559 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:22:22,560 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:22:22,797 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:22:37,799 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:22:37,799 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:22:53,040 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:22:53,041 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:22:55,660 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:23:08,258 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:23:08,258 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:23:23,509 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:23:23,510 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:23:28,708 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:23:38,739 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:23:38,740 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:23:53,987 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:23:53,987 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:24:01,747 DEBUG   SenderThread:4836 [sender.py:send():302] send: stats
+2022-08-18 15:24:09,235 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:24:09,236 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:24:24,489 DEBUG   HandlerThread:4836 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-18 15:24:24,489 DEBUG   SenderThread:4836 [sender.py:send_request():316] send_request: stop_status
+2022-08-18 15:24:34,627 INFO    MainThread:4836 [internal.py:handle_exit():80] Internal process exited
+2022-08-18 15:24:34,627 INFO    MainThread:4836 [internal.py:handle_exit():80] Internal process exited
+2022-08-18 15:24:34,627 INFO    MainThread:4836 [internal.py:handle_exit():80] Internal process exited
+2022-08-18 15:24:34,627 INFO    MainThread:4836 [internal.py:handle_exit():80] Internal process exited
+2022-08-18 15:24:34,628 WARNING MsgRouterThr:4836 [router.py:message_loop():73] EOFError seen in message_loop

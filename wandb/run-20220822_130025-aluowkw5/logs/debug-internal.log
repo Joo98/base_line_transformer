@@ -1,0 +1,177 @@
+2022-08-22 13:00:25,725 INFO    StreamThr :15536 [internal.py:wandb_internal():90] W&B internal server running at pid: 15536, started at: 2022-08-22 13:00:25.724931
+2022-08-22 13:00:25,726 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: status
+2022-08-22 13:00:25,728 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: status
+2022-08-22 13:00:25,729 DEBUG   SenderThread:15536 [sender.py:send():302] send: header
+2022-08-22 13:00:25,729 INFO    WriterThread:15536 [datastore.py:open_for_write():75] open: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\run-aluowkw5.wandb
+2022-08-22 13:00:25,738 DEBUG   SenderThread:15536 [sender.py:send():302] send: run
+2022-08-22 13:00:26,198 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: check_version
+2022-08-22 13:00:26,202 INFO    SenderThread:15536 [dir_watcher.py:__init__():216] watching files in: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files
+2022-08-22 13:00:26,202 INFO    SenderThread:15536 [sender.py:_start_run_threads():913] run started: aluowkw5 with start time 1661140825.724931
+2022-08-22 13:00:26,202 DEBUG   SenderThread:15536 [sender.py:send():302] send: summary
+2022-08-22 13:00:26,203 INFO    SenderThread:15536 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-08-22 13:00:26,203 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: check_version
+2022-08-22 13:00:26,258 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: run_start
+2022-08-22 13:00:26,301 DEBUG   HandlerThread:15536 [meta.py:__init__():35] meta init
+2022-08-22 13:00:26,301 DEBUG   HandlerThread:15536 [meta.py:__init__():50] meta init done
+2022-08-22 13:00:26,301 DEBUG   HandlerThread:15536 [meta.py:probe():216] probe
+2022-08-22 13:00:26,329 DEBUG   HandlerThread:15536 [git.py:repo():40] git repository is invalid
+2022-08-22 13:00:26,330 DEBUG   HandlerThread:15536 [meta.py:_save_pip():54] save pip
+2022-08-22 13:00:26,330 DEBUG   HandlerThread:15536 [meta.py:_save_pip():68] save pip done
+2022-08-22 13:00:26,335 DEBUG   HandlerThread:15536 [meta.py:_save_conda():75] save conda
+2022-08-22 13:00:27,212 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\requirements.txt
+2022-08-22 13:00:27,213 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\wandb-summary.json
+2022-08-22 13:00:27,213 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\conda-environment.yaml
+2022-08-22 13:00:29,548 DEBUG   HandlerThread:15536 [meta.py:_save_conda():85] save conda done
+2022-08-22 13:00:29,548 DEBUG   HandlerThread:15536 [meta.py:probe():254] probe done
+2022-08-22 13:00:29,554 DEBUG   SenderThread:15536 [sender.py:send():302] send: files
+2022-08-22 13:00:29,554 INFO    SenderThread:15536 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-08-22 13:00:29,565 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:00:29,565 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:00:29,568 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:00:29,568 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:00:29,824 DEBUG   SenderThread:15536 [sender.py:send():302] send: telemetry
+2022-08-22 13:00:29,824 DEBUG   SenderThread:15536 [sender.py:send():302] send: telemetry
+2022-08-22 13:00:29,825 DEBUG   SenderThread:15536 [sender.py:send():302] send: run
+2022-08-22 13:00:30,073 INFO    SenderThread:15536 [sender.py:send_run():797] updated run: aluowkw5
+2022-08-22 13:00:30,073 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:00:30,242 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\config.yaml
+2022-08-22 13:00:30,243 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\conda-environment.yaml
+2022-08-22 13:00:30,243 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\wandb-metadata.json
+2022-08-22 13:00:30,281 INFO    Thread-20 :15536 [upload_job.py:push():138] Uploaded file C:\Users\user\AppData\Local\Temp\tmpvx91tqivwandb\1kohmv39-wandb-metadata.json
+2022-08-22 13:00:34,593 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:00:34,593 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:00:36,175 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:00:36,175 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:00:36,204 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:00:39,074 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:00:39,074 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:00:39,090 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:00:39,090 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:00:39,118 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:00:44,840 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:00:44,840 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:00:48,933 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:00:48,933 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:00:48,957 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:00:48,957 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:00:49,082 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:00:51,366 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:00:51,366 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:00:51,389 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:00:51,389 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:00:51,513 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:00:56,401 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\config.yaml
+2022-08-22 13:01:00,068 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:01:00,068 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:01:15,663 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:01:15,664 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:01:30,903 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:01:30,903 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:01:46,142 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:01:46,142 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:02:01,396 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:02:01,396 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:02:16,641 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:02:16,641 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:02:31,885 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:02:31,885 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:02:51,899 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:02:51,899 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:03:07,141 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:03:07,141 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:03:22,387 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:03:22,387 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:03:35,512 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:03:35,512 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:03:36,370 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:03:36,370 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:03:36,439 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:03:36,542 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_created():275] file/dir created: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:03:37,627 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:03:37,627 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:03:38,551 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:03:52,883 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:03:52,883 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:04:08,136 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:04:08,136 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:04:23,367 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:04:23,368 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:04:38,817 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:04:38,817 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:04:54,057 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:04:54,057 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:05:09,301 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:05:09,301 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:05:24,561 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:05:24,561 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:05:39,783 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:05:39,783 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:05:55,026 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:05:55,026 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:06:10,251 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:06:10,251 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:06:25,494 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:06:25,494 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:06:40,739 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:06:40,739 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:06:55,968 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:06:55,968 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:06:58,737 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:06:58,738 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:06:58,763 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:06:58,764 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:06:58,890 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:07:00,089 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:07:07,634 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:07:07,634 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:07:08,310 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:07:08,310 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:07:08,346 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:07:10,172 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:07:11,245 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:07:11,245 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:07:19,108 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:07:19,108 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:07:19,960 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:07:19,960 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:07:20,044 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:07:22,253 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:07:26,426 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:07:26,426 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:07:26,487 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:07:26,487 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:07:37,647 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:07:37,647 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:07:37,693 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:07:39,355 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:07:40,364 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:07:41,707 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:07:41,707 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:07:56,949 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:07:56,949 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:08:12,401 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:08:12,401 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:08:27,642 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:08:27,642 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:08:42,865 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:08:42,865 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:08:58,109 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:08:58,109 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:09:13,331 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:09:13,331 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:09:28,549 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:09:28,550 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:09:43,774 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:09:43,775 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:09:58,993 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:09:58,993 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:10:10,526 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: resume
+2022-08-22 13:10:10,526 INFO    HandlerThread:15536 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-08-22 13:10:11,174 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: pause
+2022-08-22 13:10:11,174 INFO    HandlerThread:15536 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-08-22 13:10:11,241 DEBUG   SenderThread:15536 [sender.py:send():302] send: stats
+2022-08-22 13:10:12,496 INFO    Thread-16 :15536 [dir_watcher.py:_on_file_modified():292] file/dir modified: c:\Users\user\OneDrive\문서\NLP\base_line_transformer\wandb\run-20220822_130025-aluowkw5\files\output.log
+2022-08-22 13:10:14,238 DEBUG   HandlerThread:15536 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-22 13:10:14,238 DEBUG   SenderThread:15536 [sender.py:send_request():316] send_request: stop_status
+2022-08-22 13:10:26,547 INFO    MainThread:15536 [internal.py:handle_exit():80] Internal process exited
+2022-08-22 13:10:26,547 WARNING MsgRouterThr:15536 [router.py:message_loop():73] EOFError seen in message_loop
