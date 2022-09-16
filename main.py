@@ -4,7 +4,7 @@ from training import training
 from testing import testing
 import time
 
-HIDDEN_DIM = 2048
+HIDDEN_DIM = 256
 ENC_LAYERS = 6
 DEC_LAYERS = 6
 ENC_HEADS = 8
