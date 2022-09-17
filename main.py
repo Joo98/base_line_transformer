@@ -5,8 +5,8 @@ from testing import testing
 import time
 
 HIDDEN_DIM = 256
-ENC_LAYERS = 6
-DEC_LAYERS = 6
+ENC_LAYERS = 3
+DEC_LAYERS = 3
 ENC_HEADS = 8
 DEC_HEADS = 8
 ENC_PF_DIM = 512

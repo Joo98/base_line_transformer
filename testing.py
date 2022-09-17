@@ -2,6 +2,7 @@ import torch.nn as nn
 import torch
 from model.transformer import Encoder, Decoder, Transformer
 import nltk.translate.bleu_score as bleu
+from nltk.translate.bleu_score import SmoothingFunction
 import spacy
 from torchtext.datasets import Multi30k
 from torchtext.data import Field, BucketIterator
@@ -70,6 +71,7 @@ def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50
 def evaluate_bleu(model, SRC, TRG ,dataset,device):
     model.eval() # 평가 모드
     bleu_score = 0
+    smoothie = SmoothingFunction().method4
     with torch.no_grad():
         # 전체 평가 데이터를 확인하며
         for data in dataset.examples:
@@ -79,7 +81,7 @@ def evaluate_bleu(model, SRC, TRG ,dataset,device):
             
             predict, _ = translate_sentence(src,SRC,TRG, model,device,logging = False)
             
-            bleu_score += bleu.sentence_bleu([trg],predict[:-1])
+            bleu_score += bleu.sentence_bleu([trg],predict[:-1],smoothing_function=smoothie)
 
             
     
@@ -163,7 +165,7 @@ def testing_en_de_translation(args):
     criterion = nn.CrossEntropyLoss(ignore_index = TRG_PAD_IDX)
     
     
-    model.load_state_dict(torch.load(args.model_save_path + 'transformer_model.pt'))
+    model.load_state_dict(torch.load(args.model_save_path + 'transformer_german_to_english.pt'))
     
     print("-------------- test start! ----------------")
     example_idx = 20

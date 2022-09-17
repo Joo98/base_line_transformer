@@ -7,6 +7,7 @@ from model.transformer import Encoder
 from model.transformer import Decoder
 from model.transformer import Transformer
 import nltk.translate.bleu_score as bleu
+from nltk.translate.bleu_score import SmoothingFunction
 import math
 import time
 import torch
@@ -187,18 +188,15 @@ def evaluate(model, iterator, criterion):
 def evaluate_bleu(model, SRC, TRG ,dataset,device):
     model.eval() # 평가 모드
     bleu_score = 0
+    smoothie = SmoothingFunction().method4
     with torch.no_grad():
         # 전체 평가 데이터를 확인하며
         for data in dataset.examples:
             
             src = vars(data)['src']
             trg = vars(data)['trg']
-            if (len(trg)== 0):
-                continue
-            
             predict, _ = translate_sentence(src,SRC,TRG, model,device,logging = False)
-            
-            bleu_score += bleu.sentence_bleu([trg],predict[:-1])
+            bleu_score += bleu.sentence_bleu([trg],predict[:-1],smoothing_function=smoothie)
     return bleu_score / len(dataset.examples)        
             
             
@@ -268,14 +266,13 @@ def training_en_de_translation(args):
 
         if bleu_score > best_bleu_score:
             best_bleu_score = bleu_score
-            torch.save(model.state_dict(), 'transformer_german_to_english.pt')
+            torch.save(model.state_dict(),args.model_save_path + 'transformer_german_to_english.pt')
 
         print(f'Epoch: {epoch + 1:02} | Time: {epoch_mins}m {epoch_secs}s')
         print(f'\tTrain Loss: {train_loss:.3f} | Train PPL: {math.exp(train_loss):.3f}')
         print(f'\tValidation Loss: {valid_loss:.3f} | Validation PPL: {math.exp(valid_loss):.3f}')
         print(f'\tValidation bleu_score: {bleu_score:.3f}')
         
-        torch.save(model.state_dict(), args.model_save_path + 'transformer_model.pt')
         
 
 def training(args):
