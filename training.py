@@ -193,6 +193,8 @@ def evaluate_bleu(model, SRC, TRG ,dataset,device):
             
             src = vars(data)['src']
             trg = vars(data)['trg']
+            if (len(trg)== 0):
+                continue
             
             predict, _ = translate_sentence(src,SRC,TRG, model,device,logging = False)
             
