@@ -3,9 +3,9 @@
 import spacy
 from torchtext.datasets import Multi30k
 from torchtext.data import Field, BucketIterator
-from model.transformer import Encoder
-from model.transformer import Decoder
-from model.transformer import Transformer
+from model.core_token_attention_transformer import Encoder
+from model.core_token_attention_transformer import Decoder
+from model.core_token_attention_transformer import Transformer
 import nltk.translate.bleu_score as bleu
 from nltk.translate.bleu_score import SmoothingFunction
 import math
@@ -237,7 +237,7 @@ def training_en_de_translation(args):
         device=device)
 
     # 인코더(encoder)와 디코더(decoder) 객체 선언
-    enc = Encoder(INPUT_DIM, args.d_embedding, args.num_encoder_layer, args.n_head, args.dim_enc_feedforward, args.enc_dropout, device)
+    enc = Encoder(INPUT_DIM, args.d_embedding, args.num_encoder_layer, args.n_head, args.dim_enc_feedforward, args.enc_dropout, device, attn_option= args.attn_option)
     dec = Decoder(OUTPUT_DIM, args.d_embedding, args.num_decoder_layer, args.n_head, args.dim_dec_feedforward, args.dec_dropout, device)
 
     # Transformer 객체 선언
@@ -266,7 +266,7 @@ def training_en_de_translation(args):
 
         if bleu_score > best_bleu_score:
             best_bleu_score = bleu_score
-            torch.save(model.state_dict(),args.model_save_path + 'transformer_german_to_english.pt')
+            torch.save(model.state_dict(),args.model_save_path + args.attn_option+ 'transformer_german_to_english.pt')
 
         print(f'Epoch: {epoch + 1:02} | Time: {epoch_mins}m {epoch_secs}s')
         print(f'\tTrain Loss: {train_loss:.3f} | Train PPL: {math.exp(train_loss):.3f}')

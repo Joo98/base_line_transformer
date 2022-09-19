@@ -20,6 +20,7 @@ TRG_PAD_IDX = None
 N_EPOCHS = 10
 CLIP = 1
 
+ATTN_OPTION = 'CT'
 
 def main(args):
 
@@ -101,6 +102,9 @@ if __name__=='__main__':
                         help=f"Number of encoder layers; Default is {ENC_LAYERS}")
     parser.add_argument('--num_decoder_layer', default=DEC_LAYERS, type=int, 
                         help=f"Number of decoder layers; Default is {DEC_LAYERS}")
+    
+    parser.add_argument('--attn_option', default=ATTN_OPTION, type=str,
+                        help='attention task')
     
     parser.add_argument('--num_common_layer', default=8, type=int, 
                         help="Number of common layers; Default is 8")
